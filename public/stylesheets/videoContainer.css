@@ -1,0 +1,12 @@
+.video__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+
+}
+
+.video__card {
+    margin-right: 35px;
+}

@@ -1,0 +1,39 @@
+.sidebar {
+    width: 250px;
+    height: 700px;
+    background-color: #fff;
+    border-right: solid 1px lightgray;
+
+}
+
+.sidebar__section {
+    padding: 20px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px lightgray;
+}
+
+.sidebar__section ul li {
+    padding: 8px;
+}
+
+.sidebar__section ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3px;
+
+}
+
+.sidebar__section ul li:hover {
+
+    background-color: lightgray;
+    cursor: pointer;
+
+}
+
+.subs h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+    margin-bottom: 5px;
+    margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+<div class="video__container">
+
+    <% for(var i=0; i<videos.length;i++) {%>
+
+        <div class="video__card">
+            <img src="http://placehold.jp/300x200.png" alt="">
+            <div class="title__section">
+                <img class="channel__icon" src="" alt="">
+                <h3>
+                    <%- videos[i].title %>
+                </h3>
+            </div>
+            <div class="channel__name">
+                <h5>
+                    <%- videos[i].channelName %>
+                </h5>
+            </div>
+            <div class="details__section">
+                <p class="views__counter">
+                    <%- videos[i].views %>
+                </p>
+                <p>
+                    <%- videos[i].date %>
+                </p>
+            </div>
+        </div>
+
+        <% } %>
+
+</div>
