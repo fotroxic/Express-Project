@@ -184,4 +184,19 @@ table {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  margin-left: 20px;
+}
+
+.header__icons button {
+  width: 80px;
+  height: 30px;
+  border: solid 1px blue;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: blue;
+  cursor: pointer;
+}
+
+.body__container {
+  display: flex;
 }

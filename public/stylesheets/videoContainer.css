@@ -1,0 +1,144 @@
+.video__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    align-items: center;
+
+
+
+}
+
+.video__card {
+    margin-right: 30px;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin-bottom: 20px;
+
+
+}
+
+@media only screen and (max-width: 1915px) {
+    .video__card {
+        margin-right: 32px;
+        height: 230px;
+        width: 280px;
+        background-color: black;
+
+
+
+    }
+}
+
+@media only screen and (max-width: 1814px) {
+    .video__card {
+        margin-right: 32px;
+        height: 210px;
+        width: 260px;
+        background-color: black;
+
+
+
+    }
+}
+
+@media only screen and (max-width: 1713px) {
+    .video__card {
+        margin-right: 50px;
+        height: 250px;
+        width: 400px;
+        background-color: black;
+
+
+
+
+    }
+}
+
+@media only screen and (max-width: 1601px) {
+    .video__card {
+        margin-right: 32px;
+        height: 250px;
+        width: 380px;
+        background-color: black;
+        margin-left: 5px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .video__card {
+        margin-right: 32px;
+        height: 210px;
+        width: 340px;
+        background-color: black;
+        margin-left: 5px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1376px) {
+    .video__card {
+        margin-right: 32px;
+        height: 200px;
+        width: 300px;
+        background-color: black;
+        margin-left: 5px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1253px) {
+    .video__card {
+        margin-right: 22px;
+        height: 180px;
+        width: 280px;
+        background-color: black;
+        margin-left: 5px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .video__card {
+        margin-right: 22px;
+        height: 200px;
+        width: 350px;
+        background-color: black;
+        margin-left: 5px;
+
+
+    }
+}
+
+
+@media only screen and (max-width: 986px) {
+    .video__card {
+
+        height: 250px;
+        width: 450px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .video__card {
+
+        height: 200px;
+        width: 350px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+}
