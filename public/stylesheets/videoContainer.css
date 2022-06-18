@@ -3,13 +3,17 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 20px;
+<<<<<<< HEAD
     align-items: center;
 
+=======
+>>>>>>> 2587794b1026589b9acf5d85b2913fd2ef16a68d
 
 
 }
 
 .video__card {
+<<<<<<< HEAD
     margin-right: 30px;
     height: 250px;
     width: 300px;
@@ -141,4 +145,7 @@
 
 
     }
+=======
+    margin-right: 35px;
+>>>>>>> 2587794b1026589b9acf5d85b2913fd2ef16a68d
 }

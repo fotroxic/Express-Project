@@ -5,11 +5,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mysql = require("mysql");
 const dotenv = require('dotenv');
-const nodemailer = require('nodemailer');
-const { google } = require('googleapis');
-
-
-
 
 dotenv.config({ path: './.env' });
 const db = require('./model/db');
@@ -41,6 +36,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json({ extended: false }));
+
 
 
 app.use('/', indexRouter);
